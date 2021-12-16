@@ -1,4 +1,4 @@
-"""Check if firebot alive. If you change these, you become the gayest gay such that even the gay world will disown you."""
+"""Check if Professor alive. If you change these, you become the gayest gay such that even the gay world will disown you."""
 # CREDITS: @WhySooSerious, @Sur_vivor
 import time
 
@@ -42,7 +42,7 @@ def get_readable_time(seconds: int) -> str:
 uptime = get_readable_time((time.time() - Lastupdate))
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "firebot"
 PM_IMG = Config.ALIVE_IMAGE
-pm_caption = "  __**★ғɪʀᴇ-x ɪs ʀᴜɴɴɪɴɢ sᴜᴄᴇssғᴜʟʟʏ★**__\n\n"
+pm_caption = "  __**★Professor ɪs ʀᴜɴɴɪɴɢ sᴜᴄᴇssғᴜʟʟʏ★**__\n\n"
 
 pm_caption += f"**━━━━━━━|━━━━━|━━━━━━**\n\n"
 pm_caption += f"                 ◉✿ ᴍᴀsᴛᴇʀ ✿◉\n  **{DEFAULTUSER}**\n\n"
@@ -50,10 +50,10 @@ pm_caption += f"┏━━━━━━━ɪɴғᴏ━━━━━━━━\n"
 pm_caption += f"┣•➳➠ `ᴛᴇʟᴇᴛʜᴏɴ:` `{version.__version__}` \n"
 pm_caption += f"┣•➳➠ `ᴠᴇʀsɪᴏɴ:` `{currentversion}`\n"
 pm_caption += f"┣•➳➠ `ᴜᴘᴛɪᴍᴇ:` `{uptime}`\n"
-pm_caption += f"┣•➳➠ `ᴄʜᴀɴɴᴇʟ:` [ᴊᴏɪɴ](https://t.me/Fire_X_CHANNEL)\n"
+pm_caption += f"┣•➳➠ `ᴄʜᴀɴɴᴇʟ:` [ᴊᴏɪɴ](https://t.me/Professer_Ashu)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
 pm_caption += f" ||•|| sᴇᴄᴜʀɪᴛʏ ʙʏ ғɪʀᴇ-x ||•||\n"
-pm_caption += " [ɢɪᴛʜᴜʙ](https://github.com/TeamEviral/Fire-X) • [ɢʀᴏᴜᴘ](https://t.me/FireXUserBot)"
+pm_caption += " [ɢɪᴛʜᴜʙ](https://github.com/darkphoenix2601/Fire-X) • [ɢʀᴏᴜᴘ](https://t.me/Miss_AkshiV1_Support)"
 
 
 @fire.on(fire_on_cmd(pattern=r"alive"))
@@ -69,6 +69,6 @@ CMD_HELP.update(
     {
         "alive": "**ALive**\
 \n\n**Syntax : **`.alive`\
-\n**Usage :** Check if firebot UserBot is Alive"
+\n**Usage :** Check if Professor UserBot is Alive"
     }
 )
